@@ -104,13 +104,11 @@ def call_openai_api(chunk):
 
 
 
-from django.http import StreamingHttpResponse
 
 def sse_processamento(request, arquivo_id):
     """Gera eventos SSE para acompanhamento em tempo real."""
     from .models import ChunkProcessado
     from django.shortcuts import get_object_or_404
-    import time
 
     def event_stream():
         yield "data: Iniciando processamento...\n\n"
@@ -162,7 +160,6 @@ def iniciar_processamento(request, arquivo_id):
 def arquivos_processados(request, arquivo_id):
     """ Exibe os arquivos processados e seus conteúdos """
     from django.http import Http404
-    from django.conf import settings
 
     arquivo = get_object_or_404(ArquivoProcessado, id=arquivo_id)
     chunks = ChunkProcessado.objects.filter(arquivo=arquivo)
