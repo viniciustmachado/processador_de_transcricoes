@@ -1,0 +1,40 @@
+{% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Enviar Arquivo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow rounded">
+                    <div class="card-body">
+                        <h3 class="text-center mb-4">📁 Enviar Arquivo para Processamento</h3>
+                        <form method="post" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <div class="mb-3">
+                                <label for="arquivo" class="form-label">Escolha um arquivo .txt</label>
+                                <input type="file" name="arquivo" id="arquivo" class="form-control" required>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">🚀 Enviar e Processar</button>
+                            </div>
+                        </form>
+                        <div class="text-center mt-3">
+                            <a href="{% url 'lista_arquivos' %}" class="btn btn-outline-secondary btn-sm">Ver Arquivos Enviados</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

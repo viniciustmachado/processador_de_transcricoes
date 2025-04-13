@@ -1,0 +1,49 @@
+{% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Processando Arquivo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <h3 class="text-center mb-4">⏳ Processando Arquivo...</h3>
+                        <div id="progresso" class="bg-white border rounded p-3" style="height: 250px; overflow-y: auto; font-family: monospace; font-size: 15px;">
+                            <p class="text-muted">Aguarde...</p>
+                        </div>
+                        <div class="d-flex justify-content-between mt-4">
+                            <a href="{% url 'lista_arquivos' %}" class="btn btn-success">✅ Ver Arquivos</a>
+                            <a href="{% url 'arquivos_processados' arquivo_id=arquivo_id %}" class="btn btn-primary">📂 Ver Arquivos Processados</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const eventSource = new EventSource("{% url 'sse_processamento' arquivo_id=arquivo_id %}");
+
+        eventSource.onmessage = function(event) {
+            const progressoDiv = document.getElementById("progresso");
+            progressoDiv.innerHTML += `<p>${event.data}</p>`;
+            progressoDiv.scrollTop = progressoDiv.scrollHeight;
+        };
+
+        eventSource.onerror = function(event) {
+            console.log("Conexão encerrada.");
+            eventSource.close();
+        };
+    </script>
+
+</body>
+</html>

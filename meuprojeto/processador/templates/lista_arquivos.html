@@ -1,0 +1,8 @@
+{% for arquivo in arquivos %}
+    <h3>{{ arquivo.arquivo_original.name }}</h3>
+    <ul>
+        {% for chunk in arquivo.chunks.all %}
+            <li><a href="{{ chunk.chunk_arquivo.url }}">{{ chunk.chunk_arquivo.name }}</a></li>
+        {% endfor %}
+    </ul>
+{% endfor %}
