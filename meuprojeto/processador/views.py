@@ -6,7 +6,10 @@ from django.shortcuts import render, redirect, get_object_or_404
 from .models import ArquivoProcessado, ChunkProcessado  # 🟢 Importação corrigida
 
 # 🔹 Definição da chave da API OpenAI (⚠️ Certifique-se de não expô-la publicamente)
-openai.api_key = "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"
+from dotenv import load_dotenv
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
 
 
 def upload_arquivo(request):
