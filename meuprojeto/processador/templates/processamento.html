@@ -5,45 +5,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Processando Arquivo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Processamento do Arquivo {{ arquivo_id }}</title>
 </head>
 <body class="bg-light">
 
-    <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card shadow-sm border-0">
-                    <div class="card-body">
-                        <h3 class="text-center mb-4">⏳ Processando Arquivo...</h3>
-                        <div id="progresso" class="bg-white border rounded p-3" style="height: 250px; overflow-y: auto; font-family: monospace; font-size: 15px;">
-                            <p class="text-muted">Aguarde...</p>
-                        </div>
-                        <div class="d-flex justify-content-between mt-4">
-                            <a href="{% url 'lista_arquivos' %}" class="btn btn-success">✅ Ver Arquivos</a>
-                            <a href="{% url 'arquivos_processados' arquivo_id=arquivo_id %}" class="btn btn-primary">📂 Ver Arquivos Processados</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div class="container my-5">
+    <div class="card shadow">
+      <div class="card-body">
+        <h3 class="card-title">Processamento do Arquivo {{ arquivo_id }}</h3>
+        <hr>
+        <div id="log" class="card-text bg-white p-3 rounded" style="height: 400px; overflow-y: auto; white-space: pre-wrap;">
+          Iniciando processamento...
         </div>
+        <button id="btn-resultados" type="button" class="btn btn-primary mt-3" style="display: none;">
+          🎉 Ver Resultados
+        </button>
+      </div>
     </div>
+  </div>
 
-    <script>
-        const eventSource = new EventSource("{% url 'sse_processamento' arquivo_id=arquivo_id %}");
+  <script>
+    const logElem = document.getElementById('log');
+    const btn = document.getElementById('btn-resultados');
+    const source = new EventSource("{% url 'sse_processamento' arquivo_id=arquivo_id %}");
 
-        eventSource.onmessage = function(event) {
-            const progressoDiv = document.getElementById("progresso");
-            progressoDiv.innerHTML += `<p>${event.data}</p>`;
-            progressoDiv.scrollTop = progressoDiv.scrollHeight;
-        };
+    function appendLog(line) {
+      logElem.innerText += "\n" + line;
+      logElem.scrollTop = logElem.scrollHeight;
+    }
 
-        eventSource.onerror = function(event) {
-            console.log("Conexão encerrada.");
-            eventSource.close();
-        };
-    </script>
+    source.onmessage = (e) => {
+      appendLog(e.data);
+      if (e.data.includes("Processamento finalizado")) {
+        source.close();
+        btn.style.display = 'inline-block';
+      }
+    };
 
+    source.onerror = () => {
+      if (source.readyState !== EventSource.CLOSED) {
+        source.close();
+        appendLog("🚨 Conexão perdida.");
+        btn.style.display = 'inline-block';
+      }
+    };
+
+    btn.addEventListener('click', () => {
+      window.location.href = "{% url 'arquivos_processados' arquivo_id=arquivo_id %}";
+    });
+  </script>
 </body>
 </html>

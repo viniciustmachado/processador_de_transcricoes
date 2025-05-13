@@ -1,0 +1,52 @@
+```markdown
+# 🧠 Prompt para GPT – Expansão de Tópicos da Programação a partir de Transcrição Médica
+
+## Módulo 1: Diagnóstico & Laudos
+- Critérios DSM-5 (A, B, C)
+- Modelos de relatório de laudo em slides
+  - Discussão sobre a perda de habilidades adquiridas como sinal clínico do TEA.
+  - Importância da avaliação do desenvolvimento motor e comportamental na elaboração de laudos.
+
+## Módulo 2: Diagnóstico Diferencial
+- Fluxograma TEA × TDAH × DI × TOD
+- Critérios de exclusão de outras patologias
+  - Consideração de diagnósticos diferenciais como mutismo seletivo e transtorno de linguagem (TDL).
+  - Discussão sobre a complexidade do autismo e a necessidade de um fluxograma mental para diagnóstico.
+
+## Módulo 3: Sinais Sutis (Nível 1)
+- Masking e perfis femininos (casos de 31–50 anos)
+- Checklist rápido de observação em 5–10 min
+  - Observação de sinais como falta de resposta a sons, ausência de sorriso social e baixo contato visual.
+
+## Módulo 4: Comorbidades & Avaliação Multidimensional
+- Integração de comorbidades (TDAH, DI, TOD)
+  - Discussão sobre a alta prevalência de TDAH em pacientes autistas e a interação entre medicações.
+  - Consideração de outras comorbidades como deficiência intelectual e transtornos de ansiedade.
+
+## Módulo 5: Atualização Científica & Ferramentas Práticas
+- Protocolos rápidos: M-CHAT, CARS, ADOS
+- Modelos de checklists e escalas para laudo
+  - Importância de protocolos de avaliação e intervenções baseadas em evidências.
+
+## Módulo 7: Manejo Terapêutico & Intervenções
+- ABA aplicada
+- Comunicação alternativa aumentativa (CAA)
+- Modelo Denver de Intervenção Precoce
+  - Discussão sobre a eficácia da terapia ABA e a necessidade de intervenções intensivas.
+  - Importância de atividades físicas e motoras no tratamento.
+
+## Módulo 8: Farmacologia Prática
+- Indicações e dosagens de medicações-chave no TEA
+  - Discussão sobre o uso de metilfenidato e lisdexafetamina em pacientes autistas.
+  - Considerações sobre a prescrição de antidepressivos e antipsicóticos.
+
+## Módulo 9: Confiança Clínica & Comunicação com Famílias
+- Scripts de abordagem empática
+- Como lidar com negação/resistência dos pais
+  - Importância de capacitar os pais e orientá-los sobre o tratamento e intervenções.
+
+## Módulo 10: Posicionamento de Carreira & Digital
+- Dicas express de redes sociais (50% dos médicos não utilizam)
+- Gestão de consultório e networking médico
+  - Discussão sobre a importância de capacitar os médicos em relação ao autismo e suas comorbidades.
+```

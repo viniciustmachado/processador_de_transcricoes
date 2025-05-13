@@ -20,16 +20,21 @@
                         <form method="post" enctype="multipart/form-data">
                             {% csrf_token %}
                             <div class="mb-3">
+                                <label for="provider" class="form-label">Escolha o provedor de LLM</label>
+                                <select name="provider" id="provider" class="form-select" required>
+                                    <option value="openai">OpenAI (gpt-4o-mini)</option>
+                                    <option value="groq">Groq (gpt-4o-mini)</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
                                 <label for="arquivo" class="form-label">Escolha um arquivo .txt</label>
-                                <input type="file" name="arquivo" id="arquivo" class="form-control" required>
+                                <input type="file" name="arquivo" id="arquivo" class="form-control" accept=".txt" required>
                             </div>
                             <div class="d-grid">
                                 <button type="submit" class="btn btn-primary">🚀 Enviar e Processar</button>
                             </div>
                         </form>
-                        <div class="text-center mt-3">
-                            <a href="{% url 'lista_arquivos' %}" class="btn btn-outline-secondary btn-sm">Ver Arquivos Enviados</a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

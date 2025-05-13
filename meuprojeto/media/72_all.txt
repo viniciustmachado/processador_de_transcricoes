@@ -1,0 +1,117 @@
+```markdown
+# 🧠 Prompt para GPT – Expansão de Tópicos da Programação a partir de Transcrição Médica
+
+## Módulo 1: Diagnóstico & Laudos
+- Critérios DSM-5 (A, B, C)
+- Modelos de relatório de laudo em slides
+  - Discussão sobre a importância de um laudo bem estruturado e a elaboração de laudos médicos.
+  - Abordagem dos critérios diagnósticos e detalhamento do DSM.
+
+## Módulo 2: Diagnóstico Diferencial
+- Fluxograma TEA × TDAH × DI × TOD
+- Critérios de exclusão de outras patologias
+  - Reflexão sobre a necessidade de um diagnóstico preciso e a importância de não encaminhar inadequadamente para fonoaudiologia e psicologia.
+
+## Módulo 3: Sinais Sutis (Nível 1)
+- Masking e perfis femininos (casos de 31–50 anos)
+- Checklist rápido de observação em 5–10 min
+  - Discussão sobre a subdiagnosticagem de meninas autistas e a importância de reconhecer sinais sutis.
+
+## Módulo 4: Comorbidades & Avaliação Multidimensional
+- Integração de comorbidades (TDAH, DI, TOD)
+- Exames complementares para diagnóstico
+  - Abordagem sobre a necessidade de entender a dinâmica de crises e a importância de avaliações comportamentais.
+
+## Módulo 5: Atualização Científica & Ferramentas Práticas
+- Protocolos rápidos: M-CHAT, CARS, ADOS
+- Modelos de checklists e escalas para laudo
+  - Discussão sobre a importância de intervenções precoces e a necessidade de um conhecimento atualizado sobre autismo.
+
+## Módulo 6: Laudos & Relatórios de Excelência
+- Slides comentados: seções do laudo
+- Linguagem assertiva e valor pericial
+  - Importância de uma comunicação clara e assertiva nos laudos médicos.
+
+## Módulo 7: Manejo Terapêutico & Intervenções
+- ABA aplicada
+- Comunicação alternativa aumentativa (CAA)
+- Modelo Denver de Intervenção Precoce
+  - Discussão sobre a eficácia da ABA e a necessidade de intervenções adequadas desde os primeiros anos de vida.
+
+## Módulo 8: Farmacologia Prática
+- Indicações e dosagens de medicações-chave no TEA
+- Manejo de comorbidades psiquiátricas (ansiedade, TDAH)
+  - Abordagem sobre o uso de medicações como risperidona e ritalina, e a importância de um manejo cuidadoso.
+
+## Módulo 9: Confiança Clínica & Comunicação com Famílias
+- Scripts de abordagem empática
+- Como lidar com negação/resistência dos pais
+  - Reflexão sobre a importância de estar presente e disponível para as famílias, e a necessidade de uma comunicação empática.
+
+## Módulo 10: Posicionamento de Carreira & Digital
+- Dicas express de redes sociais (50% dos médicos não utilizam)
+- Gestão de consultório e networking médico
+  - Discussão sobre a importância de um posicionamento digital e a construção de uma carreira sólida e ética.
+```
+
+
+```markdown
+# 🧠 Prompt para GPT – Expansão de Tópicos da Programação a partir de Transcrição Médica
+
+## Módulo 1: Diagnóstico & Laudos
+- Critérios DSM-5 (A, B, C)
+  - Discussão sobre a importância do critério A, que envolve prejuízos na comunicação e socialização, e como isso se relaciona com o diagnóstico de autismo.
+  - Explicação detalhada dos critérios B e C, incluindo padrões repetitivos e a precocidade dos sintomas.
+- Modelos de relatório de laudo em slides
+  - Fornecimento de modelo de laudo que ajuda a garantir os direitos dos pacientes.
+
+## Módulo 2: Diagnóstico Diferencial
+- Fluxograma TEA × TDAH × DI × TOD
+  - Discussão sobre a complexidade do autismo e a necessidade de um diagnóstico diferencial cuidadoso, especialmente em relação a outros transtornos como TDAH e Transtorno de Ansiedade Generalizada.
+- Critérios de exclusão de outras patologias
+  - Importância de entender as inabilidades sutis que podem ser confundidas com outros transtornos.
+
+## Módulo 3: Sinais Sutis (Nível 1)
+- Masking e perfis femininos (casos de 31–50 anos)
+  - Observação sobre como meninas podem mascarar os sintomas do autismo, levando a diagnósticos tardios.
+- Checklist rápido de observação em 5–10 min
+  - Discussão sobre a importância de observar sinais sutis desde a primeira infância.
+
+## Módulo 4: Comorbidades & Avaliação Multidimensional
+- Integração de comorbidades (TDAH, DI, TOD)
+  - Menciona a associação do autismo com outros transtornos, como TDAH e Transtorno de Ansiedade.
+- Exames complementares para diagnóstico
+  - Referência a exames genéticos que podem ajudar na identificação de genes relacionados ao autismo.
+
+## Módulo 5: Atualização Científica & Ferramentas Práticas
+- Protocolos rápidos: M-CHAT, CARS, ADOS
+  - Discussão sobre a importância de protocolos e ferramentas práticas para o diagnóstico e acompanhamento de pacientes autistas.
+- Modelos de checklists e escalas para laudo
+  - Fornecimento de materiais organizados, incluindo artigos relevantes.
+
+## Módulo 6: Laudos & Relatórios de Excelência
+- Slides comentados: seções do laudo
+  - Enfatiza a necessidade de um laudo decente que garanta os direitos dos pacientes.
+- Linguagem assertiva e valor pericial
+  - Importância de uma comunicação clara e assertiva com os pais e outros profissionais.
+
+## Módulo 7: Manejo Terapêutico & Intervenções
+- ABA aplicada
+  - Discussão sobre a importância de intervenções terapêuticas e como elas podem transformar vidas.
+- Comunicação alternativa aumentativa (CAA)
+  - Menciona a necessidade de estratégias de comunicação para indivíduos autistas.
+- Modelo Denver de Intervenção Precoce
+  - Importância da intervenção precoce e como isso pode impactar o desenvolvimento.
+
+## Módulo 9: Confiança Clínica & Comunicação com Famílias
+- Scripts de abordagem empática
+  - Enfatiza a importância de uma comunicação empática com os pais, especialmente ao discutir diagnósticos e intervenções.
+- Como lidar com negação/resistência dos pais
+  - Discussão sobre a resistência que alguns pais podem ter em aceitar o diagnóstico e a importância de abordagens sensíveis.
+
+## Módulo 10: Posicionamento de Carreira & Digital
+- Dicas express de redes sociais (50% dos médicos não utilizam)
+  - Menciona a importância de se posicionar nas redes sociais para alcançar e educar mais pessoas sobre o autismo.
+- Gestão de consultório e networking médico
+  - Compartilhamento de experiências sobre a gestão de consultórios e a importância do networking na carreira médica.
+```

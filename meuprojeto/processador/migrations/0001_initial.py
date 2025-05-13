@@ -4,20 +4,29 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='ArquivoProcessado',
+            name="ArquivoProcessado",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('arquivo_original', models.FileField(upload_to='uploads/')),
-                ('arquivo_processado', models.FileField(blank=True, null=True, upload_to='processados/')),
-                ('criado_em', models.DateTimeField(auto_now_add=True)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("arquivo_original", models.FileField(upload_to="uploads/")),
+                (
+                    "arquivo_processado",
+                    models.FileField(blank=True, null=True, upload_to="processados/"),
+                ),
+                ("criado_em", models.DateTimeField(auto_now_add=True)),
             ],
         ),
     ]

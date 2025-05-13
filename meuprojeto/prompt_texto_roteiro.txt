@@ -1,0 +1,77 @@
+{
+  "title": "🧠 Prompt para GPT – Expansão de Tópicos da Programação a partir de Transcrição Médica",
+  "context": "Você receberá entre as tags <texto> a transcrição completa de uma aula ministrada em um seminário voltado para médicos, com foco em autismo, transtornos do neurodesenvolvimento e carreira médica.",
+  "task": [
+    "Analise a transcrição completa com atenção à ordem cronológica dos temas.",
+    "Compare o conteúdo da aula com a programação abaixo.",
+    "Para cada módulo da programação que for efetivamente abordado, adicione sub-itens com base nos conteúdos mencionados na transcrição.",
+    "Mantenha os nomes dos módulos e os sub-itens originais da programação. Os novos sub-itens devem aparecer abaixo deles."
+  ],
+  "course_program": {
+    "Módulo 1: Diagnóstico & Laudos": [
+      "Critérios DSM-5 (A, B, C)",
+      "Modelos de relatório de laudo em slides"
+    ],
+    "Módulo 2: Diagnóstico Diferencial": [
+      "Fluxograma TEA × TDAH × DI × TOD",
+      "Critérios de exclusão de outras patologias"
+    ],
+    "Módulo 3: Sinais Sutis (Nível 1)": [
+      "Masking e perfis femininos (casos de 31–50 anos)",
+      "Checklist rápido de observação em 5–10 min"
+    ],
+    "Módulo 4: Comorbidades & Avaliação Multidimensional": [
+      "Integração de comorbidades (TDAH, DI, TOD)",
+      "Exames complementares para diagnóstico"
+    ],
+    "Módulo 5: Atualização Científica & Ferramentas Práticas": [
+      "Protocolos rápidos: M-CHAT, CARS, ADOS",
+      "Modelos de checklists e escalas para laudo"
+    ],
+    "Módulo 6: Laudos & Relatórios de Excelência": [
+      "Slides comentados: seções do laudo",
+      "Linguagem assertiva e valor pericial"
+    ],
+    "Módulo 7: Manejo Terapêutico & Intervenções": [
+      "ABA aplicada",
+      "Comunicação alternativa aumentativa (CAA)",
+      "Modelo Denver de Intervenção Precoce"
+    ],
+    "Módulo 8: Farmacologia Prática": [
+      "Indicações e dosagens de medicações-chave no TEA",
+      "Manejo de comorbidades psiquiátricas (ansiedade, TDAH)"
+    ],
+    "Módulo 9: Confiança Clínica & Comunicação com Famílias": [
+      "Scripts de abordagem empática",
+      "Como lidar com negação/resistência dos pais"
+    ],
+    "Módulo 10: Posicionamento de Carreira & Digital": [
+      "Dicas express de redes sociais (50% dos médicos não utilizam)",
+      "Gestão de consultório e networking médico"
+    ]
+  },
+  "instructions": [
+    "Mantenha a ordem e os nomes originais dos módulos.",
+    "Mantenha os tópicos da programação como estão.",
+    "Apenas adicione novos sub-itens abaixo de um módulo **se a transcrição realmente mencionar** conteúdos relacionados.",
+    "Não adicione tópicos genéricos. Seja específico com base no que foi dito na transcrição.",
+    "Não mencione módulos que não foram abordados.",
+    "Não crie módulos novos.",
+    "Use formato Markdown para a resposta final."
+  ],
+  "example_response": {
+    "Módulo 1: Diagnóstico & Laudos": [
+      "Critérios DSM-5 (A, B, C)",
+      "Modelos de relatório de laudo em slides",
+      "- Diferença entre laudo descritivo e técnico",
+      "- Debate sobre uso do CID-11 e do DSM-5 juntos"
+    ],
+    "Módulo 7: Manejo Terapêutico & Intervenções": [
+      "ABA aplicada",
+      "Comunicação alternativa aumentativa (CAA)",
+      "Modelo Denver de Intervenção Precoce",
+      "- Exemplo clínico de uso de ABA em TEA moderado",
+      "- Discussão sobre limitações da intervenção precoce em contextos de baixa renda"
+    ]
+  }
+}

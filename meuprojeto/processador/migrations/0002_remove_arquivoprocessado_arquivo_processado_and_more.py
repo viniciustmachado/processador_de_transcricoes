@@ -5,23 +5,37 @@ import django.db.models.deletion
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('processador', '0001_initial'),
+        ("processador", "0001_initial"),
     ]
 
     operations = [
         migrations.RemoveField(
-            model_name='arquivoprocessado',
-            name='arquivo_processado',
+            model_name="arquivoprocessado",
+            name="arquivo_processado",
         ),
         migrations.CreateModel(
-            name='ChunkProcessado',
+            name="ChunkProcessado",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('chunk_arquivo', models.FileField(upload_to='processados/')),
-                ('criado_em', models.DateTimeField(auto_now_add=True)),
-                ('arquivo', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='chunks', to='processador.arquivoprocessado')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("chunk_arquivo", models.FileField(upload_to="processados/")),
+                ("criado_em", models.DateTimeField(auto_now_add=True)),
+                (
+                    "arquivo",
+                    models.ForeignKey(
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="chunks",
+                        to="processador.arquivoprocessado",
+                    ),
+                ),
             ],
         ),
     ]

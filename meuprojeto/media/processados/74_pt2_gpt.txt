@@ -1,0 +1,48 @@
+```markdown
+# Módulo 1: Diagnóstico & Laudos
+- Critérios DSM-5 (A, B, C)
+- Modelos de relatório de laudo em slides
+  - Discussão sobre a importância de esclarecer aos pais a relação entre genética e desenvolvimento, e como isso impacta o laudo.
+  - Debate sobre a necessidade de testes psicopedagógicos e suas limitações, como resultados falsos negativos ou positivos.
+
+# Módulo 2: Diagnóstico Diferencial
+- Fluxograma TEA × TDAH × DI × TOD
+- Critérios de exclusão de outras patologias
+  - Importância de um diagnóstico precoce e suas implicações no tratamento e evolução do paciente.
+
+# Módulo 3: Sinais Sutis (Nível 1)
+- Masking e perfis femininos (casos de 31–50 anos)
+- Checklist rápido de observação em 5–10 min
+  - Sinais de alerta para o pediatra, como a ausência de balbucio e comunicação gestual em crianças.
+
+# Módulo 4: Comorbidades & Avaliação Multidimensional
+- Integração de comorbidades (TDAH, DI, TOD)
+- Exames complementares para diagnóstico
+  - Discussão sobre a importância de considerar fatores genéticos e ambientais na avaliação multidimensional.
+
+# Módulo 5: Atualização Científica & Ferramentas Práticas
+- Protocolos rápidos: M-CHAT, CARS, ADOS
+- Modelos de checklists e escalas para laudo
+  - Importância de capacitar as famílias e escolas para uma triagem eficaz e direcionamento adequado.
+
+# Módulo 7: Manejo Terapêutico & Intervenções
+- ABA aplicada
+- Comunicação alternativa aumentativa (CAA)
+- Modelo Denver de Intervenção Precoce
+  - Exemplos de intervenções precoces e sua eficácia, como a importância de estímulos desde os primeiros meses de vida.
+
+# Módulo 8: Farmacologia Prática
+- Indicações e dosagens de medicações-chave no TEA
+- Manejo de comorbidades psiquiátricas (ansiedade, TDAH)
+  - Discussão sobre a relação entre genética e a necessidade de intervenções farmacológicas.
+
+# Módulo 9: Confiança Clínica & Comunicação com Famílias
+- Scripts de abordagem empática
+- Como lidar com negação/resistência dos pais
+  - Importância de explicar aos pais a relação entre genética e desenvolvimento, e como isso pode aliviar a pressão sobre eles.
+
+# Módulo 10: Posicionamento de Carreira & Digital
+- Dicas express de redes sociais (50% dos médicos não utilizam)
+- Gestão de consultório e networking médico
+  - Discussão sobre a importância de compartilhar conhecimento e recursos com as famílias, incluindo cursos gratuitos e acessíveis.
+```

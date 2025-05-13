@@ -1,0 +1,20 @@
+```markdown
+# Módulo 1: Diagnóstico & Laudos
+- Critérios DSM-5 (A, B, C)
+- Modelos de relatório de laudo em slides
+
+# Módulo 2: Diagnóstico Diferencial
+- Fluxograma TEA × TDAH × DI × TOD
+- Critérios de exclusão de outras patologias
+
+# Módulo 7: Manejo Terapêutico & Intervenções
+- ABA aplicada
+- Comunicação alternativa aumentativa (CAA)
+- Modelo Denver de Intervenção Precoce
+- Aprendizado sobre o tratamento de transtornos neurológicos em adolescentes
+
+# Módulo 10: Posicionamento de Carreira & Digital
+- Dicas express de redes sociais (50% dos médicos não utilizam)
+- Gestão de consultório e networking médico
+- Importância da certificação para a valorização profissional e construção de uma lista de espera significativa
+```

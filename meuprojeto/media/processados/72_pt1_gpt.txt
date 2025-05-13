@@ -1,0 +1,55 @@
+```markdown
+# 🧠 Prompt para GPT – Expansão de Tópicos da Programação a partir de Transcrição Médica
+
+## Módulo 1: Diagnóstico & Laudos
+- Critérios DSM-5 (A, B, C)
+- Modelos de relatório de laudo em slides
+  - Discussão sobre a importância de um laudo bem estruturado e a elaboração de laudos médicos.
+  - Abordagem dos critérios diagnósticos e detalhamento do DSM.
+
+## Módulo 2: Diagnóstico Diferencial
+- Fluxograma TEA × TDAH × DI × TOD
+- Critérios de exclusão de outras patologias
+  - Reflexão sobre a necessidade de um diagnóstico preciso e a importância de não encaminhar inadequadamente para fonoaudiologia e psicologia.
+
+## Módulo 3: Sinais Sutis (Nível 1)
+- Masking e perfis femininos (casos de 31–50 anos)
+- Checklist rápido de observação em 5–10 min
+  - Discussão sobre a subdiagnosticagem de meninas autistas e a importância de reconhecer sinais sutis.
+
+## Módulo 4: Comorbidades & Avaliação Multidimensional
+- Integração de comorbidades (TDAH, DI, TOD)
+- Exames complementares para diagnóstico
+  - Abordagem sobre a necessidade de entender a dinâmica de crises e a importância de avaliações comportamentais.
+
+## Módulo 5: Atualização Científica & Ferramentas Práticas
+- Protocolos rápidos: M-CHAT, CARS, ADOS
+- Modelos de checklists e escalas para laudo
+  - Discussão sobre a importância de intervenções precoces e a necessidade de um conhecimento atualizado sobre autismo.
+
+## Módulo 6: Laudos & Relatórios de Excelência
+- Slides comentados: seções do laudo
+- Linguagem assertiva e valor pericial
+  - Importância de uma comunicação clara e assertiva nos laudos médicos.
+
+## Módulo 7: Manejo Terapêutico & Intervenções
+- ABA aplicada
+- Comunicação alternativa aumentativa (CAA)
+- Modelo Denver de Intervenção Precoce
+  - Discussão sobre a eficácia da ABA e a necessidade de intervenções adequadas desde os primeiros anos de vida.
+
+## Módulo 8: Farmacologia Prática
+- Indicações e dosagens de medicações-chave no TEA
+- Manejo de comorbidades psiquiátricas (ansiedade, TDAH)
+  - Abordagem sobre o uso de medicações como risperidona e ritalina, e a importância de um manejo cuidadoso.
+
+## Módulo 9: Confiança Clínica & Comunicação com Famílias
+- Scripts de abordagem empática
+- Como lidar com negação/resistência dos pais
+  - Reflexão sobre a importância de estar presente e disponível para as famílias, e a necessidade de uma comunicação empática.
+
+## Módulo 10: Posicionamento de Carreira & Digital
+- Dicas express de redes sociais (50% dos médicos não utilizam)
+- Gestão de consultório e networking médico
+  - Discussão sobre a importância de um posicionamento digital e a construção de uma carreira sólida e ética.
+```

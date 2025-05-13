@@ -1,0 +1,21 @@
+```markdown
+# 🧠 Prompt para GPT – Expansão de Tópicos da Programação a partir de Transcrição Médica
+
+## Módulo 1: Diagnóstico & Laudos
+- Critérios DSM-5 (A, B, C)
+- Modelos de relatório de laudo em slides
+  - Discussão sobre a importância de um laudo claro e objetivo para a prática médica.
+
+## Módulo 2: Diagnóstico Diferencial
+- Fluxograma TEA × TDAH × DI × TOD
+- Critérios de exclusão de outras patologias
+  - Importância de uma comunicação clara sobre as áreas de atuação para evitar confusões no diagnóstico.
+
+## Módulo 10: Posicionamento de Carreira & Digital
+- Dicas express de redes sociais (50% dos médicos não utilizam)
+  - Análise de perfis médicos e a importância da primeira impressão nas redes sociais.
+  - Sugestões sobre como apresentar o nome e a especialidade de forma clara e profissional.
+  - Discussão sobre a relevância de um posicionamento claro e a gestão da imagem nas redes sociais.
+  - Importância de evitar informações excessivas e manter a clareza na comunicação do perfil profissional.
+  - Reflexão sobre a identificação profissional e como isso pode impactar a percepção dos pacientes.
+```

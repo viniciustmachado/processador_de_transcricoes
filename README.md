@@ -1,4 +1,11 @@
 # Trabalho_Framework_Django
+
+Para rodar a aplicação, rode o ambiente virtual "meuambiente" (requirements.txt) e execute:
+
+>> (meuambiente) PS ... \TRABALHO\meuprojeto> python manage.py runserver
+
+--------
+
 🧠 Aplicação Web para Processamento de Transcrições Longas com LLM
 
 🎯 Objetivo do Projeto

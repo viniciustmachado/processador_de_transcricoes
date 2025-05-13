@@ -1,0 +1,34 @@
+```markdown
+# 🧠 Prompt para GPT – Expansão de Tópicos da Programação a partir de Transcrição Médica
+
+## Módulo 1: Diagnóstico & Laudos
+- Critérios DSM-5 (A, B, C)
+- Modelos de relatório de laudo em slides
+  - Discussão sobre a importância da capacitação dos pais para a compreensão do autismo e a elaboração de laudos mais eficazes.
+
+## Módulo 2: Diagnóstico Diferencial
+- Fluxograma TEA × TDAH × DI × TOD
+- Critérios de exclusão de outras patologias
+  - Abordagem sobre a individualização do tratamento e a necessidade de diferenciar entre condições que podem coexistir com o autismo.
+
+## Módulo 4: Comorbidades & Avaliação Multidimensional
+- Integração de comorbidades (TDAH, DI, TOD)
+- Exames complementares para diagnóstico
+  - Discussão sobre a importância de considerar comorbidades como apraxia e questões sensoriais no tratamento do autismo.
+
+## Módulo 8: Farmacologia Prática
+- Indicações e dosagens de medicações-chave no TEA
+  - Uso de risperidona e aripiprazole, com ênfase em suas indicações e efeitos colaterais.
+  - Considerações sobre o uso de fluoxetina e sertralina após os cinco anos.
+  - Discussão sobre o uso de canabidiol e psicoestimulantes como a Ritalina.
+
+## Módulo 9: Confiança Clínica & Comunicação com Famílias
+- Scripts de abordagem empática
+  - Importância da capacitação dos pais e da comunicação clara sobre o tratamento e as expectativas.
+
+## Módulo 10: Posicionamento de Carreira & Digital
+- Dicas express de redes sociais (50% dos médicos não utilizam)
+  - Estratégias de marketing digital e networking para médicos, incluindo a importância de uma boa apresentação pessoal e a utilização de redes sociais como ferramenta de promoção.
+- Gestão de consultório e networking médico
+  - Discussão sobre a importância de estabelecer parcerias e eventos comunitários para aumentar a visibilidade e a captação de pacientes.
+```
